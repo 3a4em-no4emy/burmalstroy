@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>БурмалСТРОЙ — Вход</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body class="auth-page">
+  <div class="auth-card">
+    <h1>БурмалСТРОЙ</h1>
+    <p class="muted">Сообщите о неисправности — мы всё починим.</p>
+
+    <div class="tabs">
+      <button class="tab active" data-tab="login">Вход</button>
+      <button class="tab" data-tab="register">Регистрация</button>
+    </div>
+
+    <form id="login-form" class="form">
+      <label>Email
+        <input type="email" name="email" required autocomplete="email" />
+      </label>
+      <label>Пароль
+        <input type="password" name="password" required autocomplete="current-password" />
+      </label>
+      <button type="submit" class="btn primary">Войти</button>
+      <div class="form-error" id="login-error"></div>
+    </form>
+
+    <form id="register-form" class="form hidden">
+      <label>ФИО
+        <input type="text" name="full_name" required minlength="3" />
+      </label>
+      <label>Email
+        <input type="email" name="email" required autocomplete="email" />
+      </label>
+      <label>Телефон
+        <input type="tel" name="phone" placeholder="+7..." />
+      </label>
+      <label>Роль
+        <select name="role">
+          <option value="student">Студент</option>
+          <option value="employee">Сотрудник</option>
+        </select>
+      </label>
+      <label>Пароль
+        <input type="password" name="password" required minlength="6" autocomplete="new-password" />
+      </label>
+      <button type="submit" class="btn primary">Зарегистрироваться</button>
+      <div class="form-error" id="register-error"></div>
+    </form>
+
+    <details class="demo">
+      <summary>Демо-аккаунты (пароль password123)</summary>
+      <ul>
+        <li>student@example.com — студент</li>
+        <li>employee@example.com — сотрудник</li>
+        <li>spec@example.com — специалист</li>
+        <li>manager@example.com — заведующий</li>
+      </ul>
+    </details>
+  </div>
+
+  <script src="js/api.js"></script>
+  <script src="js/auth.js"></script>
+</body>
+</html>
