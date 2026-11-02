@@ -1,0 +1,24 @@
+[2026-11-02T03:01:07.274Z] Error: secretOrPrivateKey must have a value
+    at module.exports [as sign] (C:\Users\LEGION\Desktop\burmalstroy\backend\node_modules\jsonwebtoken\sign.js:111:20)
+    at C:\Users\LEGION\Desktop\burmalstroy\backend\src\routes\auth.js:41:23
+[2026-11-02T03:01:14.376Z] Error: secretOrPrivateKey must have a value
+    at module.exports [as sign] (C:\Users\LEGION\Desktop\burmalstroy\backend\node_modules\jsonwebtoken\sign.js:111:20)
+    at C:\Users\LEGION\Desktop\burmalstroy\backend\src\routes\auth.js:41:23
+[2026-11-02T03:02:31.543Z] Error: secretOrPrivateKey must have a value
+    at module.exports [as sign] (C:\Users\LEGION\Desktop\burmalstroy\backend\node_modules\jsonwebtoken\sign.js:111:20)
+    at C:\Users\LEGION\Desktop\burmalstroy\backend\src\routes\auth.js:41:23
+[2026-11-02T03:02:32.646Z] Error: secretOrPrivateKey must have a value
+    at module.exports [as sign] (C:\Users\LEGION\Desktop\burmalstroy\backend\node_modules\jsonwebtoken\sign.js:111:20)
+    at C:\Users\LEGION\Desktop\burmalstroy\backend\src\routes\auth.js:41:23
+[2026-11-02T03:02:32.799Z] Error: secretOrPrivateKey must have a value
+    at module.exports [as sign] (C:\Users\LEGION\Desktop\burmalstroy\backend\node_modules\jsonwebtoken\sign.js:111:20)
+    at C:\Users\LEGION\Desktop\burmalstroy\backend\src\routes\auth.js:41:23
+[2026-11-02T03:02:32.938Z] Error: secretOrPrivateKey must have a value
+    at module.exports [as sign] (C:\Users\LEGION\Desktop\burmalstroy\backend\node_modules\jsonwebtoken\sign.js:111:20)
+    at C:\Users\LEGION\Desktop\burmalstroy\backend\src\routes\auth.js:41:23
+[2026-11-02T03:02:37.217Z] Error: secretOrPrivateKey must have a value
+    at module.exports [as sign] (C:\Users\LEGION\Desktop\burmalstroy\backend\node_modules\jsonwebtoken\sign.js:111:20)
+    at C:\Users\LEGION\Desktop\burmalstroy\backend\src\routes\auth.js:41:23
+[2026-11-02T03:02:42.548Z] Error: secretOrPrivateKey must have a value
+    at module.exports [as sign] (C:\Users\LEGION\Desktop\burmalstroy\backend\node_modules\jsonwebtoken\sign.js:111:20)
+    at C:\Users\LEGION\Desktop\burmalstroy\backend\src\routes\auth.js:41:23
